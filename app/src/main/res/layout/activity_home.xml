@@ -29,6 +29,7 @@
             android:text="x86"
             android:textColor="#fff"
             android:textSize="24dp" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -63,5 +64,18 @@
             </LinearLayout>
 
         </LinearLayout>
+        <TextView
+            android:id="@+id/text_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:text="Asadullah Nadeem"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
     </LinearLayout>
+
+
 </LinearLayout>

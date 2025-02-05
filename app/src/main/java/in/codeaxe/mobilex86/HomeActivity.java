@@ -67,6 +67,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         }, 4000);
     }
+
     public String getDetails() {
         StringBuilder details = new StringBuilder();
         try {
