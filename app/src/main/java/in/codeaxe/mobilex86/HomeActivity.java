@@ -275,9 +275,13 @@ public class HomeActivity extends AppCompatActivity {
                 "/system/xbin/su",
                 "/sbin/su",
                 "/system/su",
+//                Superuser.apk
                 "/system/app/Superuser.apk",
+//                SuperSU.apk
                 "/system/app/SuperSU.apk",
+//                KingRoot.apk
                 "/system/app/KingRoot.apk",
+//                MagiskManager.apk
                 "/system/app/MagiskManager.apk"
         };
 
