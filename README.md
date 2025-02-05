@@ -1,7 +1,7 @@
-# Android Device Information
 
 ![Green Organic Illustrative Promote My School Club Banner](https://github.com/user-attachments/assets/e310d028-a3ca-4d23-ab54-abb316cbdb87)
 
+# Android Device Information
 
 This open-source project provides a structured way to retrieve and display Android device information programmatically.
 
