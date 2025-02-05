@@ -6,6 +6,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ActivityManager;
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -51,11 +52,13 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
 
-        progressDialog = new ProgressDialog(this, R.style.CustomProgressDialog);
-        progressDialog.setMessage("Data Loading....");
+        Dialog progressDialog = new Dialog(this, R.style.CustomProgressDialog);
+        progressDialog.setContentView(R.layout.dialog);
         progressDialog.setCancelable(false);
         progressDialog.setCanceledOnTouchOutside(false);
         progressDialog.show();
+        TextView progressText = progressDialog.findViewById(R.id.progressText);
+        progressText.setText(R.string.loading);
 
         new Handler().postDelayed(new Runnable() {
             @Override

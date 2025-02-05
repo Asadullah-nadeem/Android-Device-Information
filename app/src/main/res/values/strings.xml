@@ -2,5 +2,6 @@
     <string name="app_name">Mobile X86</string>
     <string name="android">Android</string>
     <string name="wifi_blueto">Wifi bluetooth and Network</string>
+    <string name="loading">Loading Data...</string>
 
 </resources>
